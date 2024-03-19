@@ -196,13 +196,9 @@ export default function Checkout() {
             alignItems: "center",
             mb: 2,
             m: 5,
-            backgroundColor: "gray",
-            color: "white",
-            ":hover": {
-              color: "black",
-              backgroundColor: "whitesmoke",
-              // zoom: 1.2,
-            },
+            backgroundColor: "black",
+                  color: "white",
+                  ":hover": { color: "black", backgroundColor: "white" },
           }}
           // onClick={() => {
           //   navigate("/payment");

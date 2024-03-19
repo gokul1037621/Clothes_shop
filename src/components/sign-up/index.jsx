@@ -144,9 +144,9 @@ export default function SignIn() {
                 sx={{
                   mt: 3,
                   mb: 2,
-                  backgroundColor: "gray",
+                  backgroundColor: "black",
                   color: "white",
-                  ":hover": { color: "black", backgroundColor: "whitesmoke" },
+                  ":hover": { color: "black", backgroundColor: "white" },
                 }}
               >
                 Sign In
@@ -242,9 +242,9 @@ export default function SignIn() {
                 sx={{
                   mt: 3,
                   mb: 2,
-                  backgroundColor: "gray",
+                  backgroundColor: "black",
                   color: "white",
-                  ":hover": { color: "black", backgroundColor: "whitesmoke" },
+                  ":hover": { color: "black", backgroundColor: "white" },
                 }}
                 on
               >

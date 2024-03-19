@@ -110,7 +110,7 @@ function MainNavigator() {
             fontWeight: 200,
             fontSize: 12,
             fontFamily: "helvetica",
-            paddingRight:60
+            paddingRight:50
           }}
         >
           CROWNS CLOTHING
@@ -319,7 +319,9 @@ function MainNavigator() {
 
               <Button
                 variant="contained"
-                sx={{ width: "90%", m: 2 }}
+                sx={{ width: "90%", m: 2 , backgroundColor: "black",
+                color: "white",
+                ":hover": { color: "black", backgroundColor: "white" },}}
                 onClick={() => {
                   handlecheckout()
                 }}
